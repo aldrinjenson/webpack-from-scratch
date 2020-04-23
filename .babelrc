@@ -1,0 +1,10 @@
+{
+   "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+   ]
+}
+
+// Specifying the presets we installed to the babel loader
+// babel is a loder inside webpack which converts JS scripts to older js which the browsers can recognize and understand
+// Babel uses  ceratain presets which we pass into it and extra other configurations can also be added as well depeding on our needs
