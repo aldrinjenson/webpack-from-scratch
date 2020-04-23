@@ -8,3 +8,7 @@
 // Specifying the presets we installed to the babel loader
 // babel is a loder inside webpack which converts JS scripts to older js which the browsers can recognize and understand
 // Babel uses  ceratain presets which we pass into it and extra other configurations can also be added as well depeding on our needs
+
+// Note, babel transpiles only the js files and not any css files
+// for that we need  style loader and css loader.
+// also sass loader for sass files
